@@ -57,5 +57,3 @@ Used to upload our local repo content to remote/global repo of github.
 syntax:
       git push origin main 
 
--------------------------------------------------------------------------------------------------------------------------------------------------------
-
