@@ -1,0 +1,58 @@
+Some commands of git.
+------------------------------------------------------------------------------------------
+cd [change directory]
+This command is used to go in any internal directory of  a machine.
+Syntax:
+       cd <-directory name->
+
+------------------------------------------------------------------------------------------------------------------------------
+ls 
+This command is used to give all child directories/folders from current directory.
+Syntax1:
+       ls  <-This will show non-hidden files only.->
+syntax2:
+        ls -a  <-This will show all hidden files also.->
+
+---------------------------------------------------------------------------------------------------------
+CLONE
+clone command is used  to clone and invoke a repositery on our machine
+-There are two links [local i.e our laptop or computer]  and  [remote i.e Github link/repo.]
+- syntax for cloning:
+                     (git clone <-some link->) where  <-some link-> is link of our repo.
+
+-----------------------------------------------------------------------------------------------------------------
+STATUS 
+This command gives simply status of our repo.
+syntax:
+      git status
+
+Whenever the above command displays (on main branch i.e this means we are on our github cloned repository. If it doesn't shows as given we should use <-cd_command-> to get inside the cloned repo.)
+
+Types of status:
+              -untracked: New files that git cannot track yet. This includes the files created by ourself by code editor in our cloned repo.
+
+              -modified: If we perform any change on our cloned repo files imported from github  we will face this status.
+
+              -unmodified:This says that our github repo files are not modified
+
+              -staged:This says that our file is ready to be comited in github. This prepares our cloned repo files  ready to be comitted.To make our file ready on stage status we have to use <-add command -> and then according to our requirement we can push our file officially on github by <-commit command->. {Note: use (git restore --staged <-file name->) to make the file on unstaged status.}
+
+---------------------------------------------------------------------------------------------------------------------------
+
+Add and Commit command
+
+Add: this adds new or changed files of our cloned directory to staging status area.
+Syntax:
+      git add <-file name->
+      git add . <used to add all files in staging status area>
+
+Commit: Commit command is used to push our code in our local repository. It push all the files that are in staging status area.
+syntax:
+       git commit -m "Some message about commited files"
+
+--------------------------------------------------------------------------------------------------------------------------------------------
+
+Push Command
+Used to upload our local repo content to remote/global repo of github.
+syntax:
+      git push origin main 
