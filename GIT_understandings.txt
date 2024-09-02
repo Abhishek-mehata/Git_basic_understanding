@@ -35,7 +35,9 @@ Types of status:
 
               -unmodified:This says that our github repo files are not modified
 
-              -staged:This says that our file is ready to be comited in github. This prepares our cloned repo files  ready to be comitted.To make our file ready on stage status we have to use <-add command -> and then according to our requirement we can push our file officially on github by <-commit command->. {Note: use (git restore --staged <-file name->) to make the file on unstaged status.}
+              -staged:This says that our file is ready to be comited in github. 
+                     This prepares our cloned repo files  ready to be comitted.
+                     To make our file ready on stage status we have to use <-add command -> and then according to our requirement we can push our file officially on github                        by <-commit command->. {Note: use (git restore --staged <-file name->) to make the file on unstaged status.}
 
 ---------------------------------------------------------------------------------------------------------------------------
 
