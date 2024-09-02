@@ -48,7 +48,9 @@ Syntax:
       git add <-file name->
       git add . <used to add all files in staging status area>
 
-Commit: Commit command is used to push our code in our local repository. It push all the files one step upward that are in staging status area and then <-git push origin main -> command is used to update our cloned repo into the github repository.
+Commit: Commit command is used to push our code in our local repository. 
+       It push all the files one step upward that are in staging status area and then <-git push origin main -> command is used to update our cloned repo
+       into the github repository.
 syntax:
        git commit -m "Some message about commited files"
 
