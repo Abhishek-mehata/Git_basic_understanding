@@ -37,7 +37,8 @@ Types of status:
 
               -staged:This says that our file is ready to be comitted in github. 
                      This prepares our cloned repo files  ready to be comitted.
-                     To make our file ready on staged status we have to use <-add command -> and then according to our requirement we can push our file officially on github                        by <-commit command->. {Note: use (git restore --staged <-file name->) to make the file on unstaged status.}
+                     To make our file ready on staged status we have to use <-add command -> and then according to                         our requirement we can push our file officially on github by <-commit command->.
+                     {Note: use (git restore --staged <-file name->) to make the file on unstaged status.}
 
 ---------------------------------------------------------------------------------------------------------------------------
 
